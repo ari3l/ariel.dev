@@ -1,0 +1,25 @@
+#ariel {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.ieee {
+    background-color: rgb(142, 205, 247);
+}
+
+.appIcon {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 25%;
+    margin-bottom: 1em;
+}
+
+#appStore {
+    /* max-width: 50%; */
+    max-width: 200px;
+    max-height: 200px;
+}
+
+footer {
+    margin-top: 1em;
+}
