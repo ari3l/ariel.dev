@@ -23,7 +23,7 @@ jobs:
           SSH_HOST: ${{ secrets.SSH_HOST }}
 
       - name: Checkout
-         uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Push to server
         run: rsync -a --delete ariel.dev/website/ $SSH_USER@staging:/var/www/html/arieldev
